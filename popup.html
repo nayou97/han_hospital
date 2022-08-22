@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="description" content="대청한의원" />
+        <link rel="canonical" href="http://ilsan.chamc.co.kr" />
+
+        <link rel="shortcut icon" type="image/x-icon" href="img/dch.bmp"> <!-- 아이콘 -->
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/NanumSquareotf.css" />
+        <script>
+           function setCookie( name, value, expiredays ) 
+            { 
+                  var todayDate = new Date(); 
+                  todayDate.setDate( todayDate.getDate() + expiredays ); 
+                  document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+                  } 
+
+            // 체크후 닫기버튼을 눌렀을때 쿠키를 만들고 창을 닫습니다
+
+            function closeWin() 
+            { 
+                  if ( document.pop.Notice.checked ) 
+                  setCookie( "Notice", "done" , 1);  // 오른쪽 숫자는 쿠키를 유지할 기간을 설정합니다
+                  self.close(); 
+            } 
+        </script>
+        <style>
+            img { display:block; width:100%;}
+            /* a { display:block; }
+            a img { display:block; width:100%;} */
+            form { background:#333; padding:8px 0; width:100%; text-align:center; color:#fff; cursor:pointer; }
+            form input[type="checkbox"] { vertical-align:middle; margin:0 4px 0 0; }
+            form input[type="button"] { background:none; padding:0; margin:0; color:#fff; border:0; }           
+        </style>
+
+        <title>대청한의원</title>
+    </head>
+    <body>
+      <div class="content">
+         <img src="img/popup-re.jpg">
+         <!-- <a href="https://recruit.chamc.co.kr/page.ckd#/recruit/announcement/RG20191425-001" target="_blank">
+         </a> -->
+         <form name="pop"> 
+            <input type="checkbox" name="Notice" value="">오늘 하루동안 보지 않기
+            <input type="button" value="[닫기]" onclick="closeWin()">
+         </form> 
+      </div>
+   </body>
+         
+</html>

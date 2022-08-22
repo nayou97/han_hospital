@@ -1,0 +1,41 @@
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-style: normal;
+ font-weight: 300;
+ src: url(fonts/NanumSquareOTFLight.eot);
+ src: url(fonts/NanumSquareOTFLight.eot?#iefix) format('embedded-opentype'),
+      url(fonts/NanumSquareOTFLight.woff) format('woff'),
+      url(fonts/NanumSquareOTFLight.ttf) format('truetype');
+}
+
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-style: normal;
+ font-weight: 400;
+ src: url(fonts/NanumSquareOTFRegular.eot);
+ src: url(fonts/NanumSquareOTFRegular.eot?#iefix) format('embedded-opentype'),
+      url(fonts/NanumSquareOTFRegular.woff) format('woff'),
+      url(fonts/NanumSquareOTFRegular.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-style: normal;
+ font-weight: 700;
+ src: url(fonts/NanumSquareOTFBold.eot);
+ src: url(fonts/NanumSquareOTFBold.eot?#iefix) format('embedded-opentype'),
+      url(fonts/NanumSquareOTFBold.woff) format('woff'),
+      url(fonts/NanumSquareOTFBold.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-style: normal;
+ font-weight: 800;
+ src: url(fonts/NanumSquareOTFExtraBold.eot);
+ src: url(fonts/NanumSquareOTFExtraBold.eot?#iefix) format('embedded-opentype'),
+      url(fonts/NanumSquareOTFExtraBold.woff) format('woff'),
+      url(fonts/NanumSquareOTFExtraBold.ttf) format('truetype');
+}
